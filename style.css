@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    display: block;
+    -webkit-font-smoothing:antialiased;
+    background: #000;
+    height: 100%;
+    	
+}
+.container{
+    width:100%;
+    height:100vh;
+    position: relative;
+    background: url(back.jpg) no-repeat center center/cover;
+    border-bottom: 8px solid #c9c9c9;
+}
+.container::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.3);
+	box-shadow:inset -120px -100px -250px #000000;
+	filter: brightness(0.9);
+}
+
+nav{
+    padding: 20px;
+    margin:10px;
+}
+#menu-right{
+    float: right;
+}
+#card{
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+.netflix{
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    color: red;
+}
+#menu-left{
+    float:left;
+}
+.main{
+    text-align: center;
+    margin: 130px auto;
+    font-size: 16px;
+    padding:10px;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.main-content{
+    width:650px;
+    margin:0 auto;
+} 
+
+.button{
+    margin-top: 50px;
+}
+#card{
+    color: white;
+    font-weight: bold;
+    font-size: 3.2em;
+}
+#card2{
+    font-weight:normal;
+    color: white;
+    font-family:'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.get{
+    color: white;
+    background: red;
+    border:1px solid red;
+    padding: 10px;
+    height: 10vh;
+    width:234px
+}
+.now{
+    font-weight: normal;
+    font-size: 23px;
+}
+#sign in{ 
+    background:red;
+    border: 1px solid red;
+}
